@@ -36,6 +36,9 @@ html{
    border-radius: 5px;
     background-color: var(--blue-color);
 }
+.navbar.scroll {
+    background-color: #0000006c;
+  }
 .item{
     position: relative;
     height: 80vh;
