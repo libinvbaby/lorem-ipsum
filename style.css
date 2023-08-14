@@ -1,0 +1,112 @@
+:root{
+    --primay-color :#B2C91E;
+    --blue-color :#006CB8;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing:border-box;
+    margin : 0px ;
+    padding :  0px;
+    /* font-family: 'Archivo', sans-serif; */
+    /* font-family: 'Roboto Slab', serif; */
+}
+.navbar{
+    /* position: fixed;
+    top: 0;
+    z-index: 999999; */
+    background-color: transparent
+}
+
+.nav-link{
+        font-family: 'Archivo', sans-serif;
+        color: #fff;
+
+}
+.nav-item{
+    padding-left: 30px;
+}
+.navbar-nav .nav-link.active{
+    color:var(--primay-color) ;
+}
+.navlink-button{
+   padding:10px 30px!important;
+   border-radius: 5px;
+    background-color: var(--blue-color);
+}
+.item{
+    position: relative;
+    height: 80vh;
+}
+.item img{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    
+}
+.banner {
+    width: 70%!important;
+}
+.playbutton img{
+    width: 100px !important;}
+.playbutton {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+.playbutton p{
+    font-size: 12px;
+    color: var(--blue-color);
+    position: relative;
+    top: 100px;
+}
+.slide-title{
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 70px;
+    font-weight: normal;
+    top: 25%;
+    left: 10%;
+}
+.slide-title::before{
+    content: "";
+    border: 2px solid var(--primay-color);
+    width:40px;
+    height: 0px;
+    position: absolute;
+}
+.feature-card {
+    position: relative;
+}
+.feature-card h5{
+    font-size:18px;
+    font-family: 'Roboto Slab', serif;
+
+}
+.feature-card p {
+    font-size:13px;
+    font-family: 'Archivo', sans-serif;
+
+}
+.btn-container {
+    position: relative;
+}
+.btn-container a {
+    text-decoration:none;
+    font-size:14px;
+    color: var(--blue-color);
+    font-family: 'Archivo', sans-serif;
+
+}
+.btn-container a::before{
+    content:"";
+    position: absolute;
+    left: -16px;
+    bottom: 6px;
+    height: 10px;
+    width: 10px;
+    border-right:4px solid var(--primay-color);
+    border-bottom:4px solid var(--primay-color);
+}

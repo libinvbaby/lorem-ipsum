@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lorem Ipsum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+    <!-- Navabr start -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CSR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink-button" href="#">Enquiry</a>
+              </li>
+             
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+    <!-- Navabr end -->
+    <!-- banner section start -->
+    <!-- Set up your HTML -->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="banner" src="./images/banner-one.png" alt="">
+            <div class="playbutton"><img  src="./images/playbutton.png" alt="">
+            <p>Watch Our Video</p></div>
+            <h1 class="slide-title">Solutions <br>
+                Engineered for <br>
+                Industries</h1>
+        </div>
+        <div class="item">
+            <img class="banner" src="./images/banner-one.png" alt="">
+            <div class="playbutton"><img  src="./images/playbutton.png" alt="">
+            <p>Watch Our Video</p></div>
+            <h1 class="slide-title">Solutions <br>
+                Engineered for <br>
+                Industries</h1>
+        </div>
+        <!-- <div class="item"><h4>2</h4></div> -->
+       
+    </div>
+    <!-- banner section end -->
+
+    <!-- feature section start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pb-4">
+                <div class="row">
+                    <div class="col-md-6 col-3"><img width="100%" src="./images/trading-and-distribution.png" alt=""></div>
+                    <div class="col-md-6 col-9 feature-card">
+                        <h5>Trading and Distribution</h5>
+                        <p>We help you in obtaining the right engineering product…</p>
+                        <div class="btn-container">
+
+                            <a href="">Know More</a>
+                        </div>                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pb-4">
+                <div class="row">
+                    <div class="col-md-6 col-3"><img width="100%" src="./images/crane.png" alt=""></div>
+                    <div class="col-md-6 col-9 feature-card">
+                        <h5>Crane Services</h5>
+                        <p>We ensure your cranes maintain the highest life cycle values…</p>
+                        <div class="btn-container">
+
+                            <a href="">Know More</a>
+                        </div>                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pb-4">
+                <div class="row">
+                    <div class="col-md-6 col-3  align-self-center"><img width="100%" src="./images/trading-and-distribution.png" alt=""></div>
+                    <div class="col-md-6 col-9 feature-card align-self-center">
+                        <h5>Condition Monitoring</h5>
+                        <p>Routine monitoring for accurate diagnosis of  ..</p>
+                        <div class="btn-container">
+
+                            <a href="">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature section end -->
+
+    <script>
+       $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
