@@ -305,8 +305,10 @@ font-family: 'Archivo', sans-serif;
         }
         .playbutton {
             position: absolute;
-            top: 28%;
-            right: 5%;
+            
+    top: 38%;
+    right: 10%;
+
         }
         .playbutton p {
             font-size: 12px;
@@ -341,4 +343,24 @@ font-family: 'Archivo', sans-serif;
         display: flex;
         flex-direction: column;
     }
+}
+@media only screen and (max-width: 480px){
+    .item{
+        position: relative;
+        height: 60vh;
+    }
+    .cta-image {
+        width: 30%;
+        margin-top: 20px;
+        position: absolute;
+        left: 10px;
+        top: -146px;
+    }
+    .playbutton {
+        position: absolute;
+        top: 25%;
+        right: 10%;
+}
+.slide-title {
+    margin-top: 60px;}
 }
