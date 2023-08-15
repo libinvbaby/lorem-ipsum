@@ -5,6 +5,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 *{
     box-sizing:border-box;
@@ -80,6 +81,35 @@ html{
     height: 0px;
     position: absolute;
 }
+.owl-dots{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.owl-dots button.owl-dot{
+  border: 1px solid gray;
+  background: grey;
+   border-radius: 50%;
+   height: 16px;
+   width: 16px;
+   position: relative;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: grey!important;
+    border-radius: 50%;
+  height: 12px!important;
+  width: 12px!important;
+  margin-left: 15px;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+.owl-theme .owl-dots .owl-dot.active {
+    background: var(--primay-color)!important;
+ 
+}
 section{
     padding:30px 0px;
 }
@@ -144,4 +174,95 @@ section{
     right: 50px;
     z-index:-1;
 
+}
+
+.cta{
+    background-image: url(./images/bgblue.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px 60px;
+}
+
+.cta-sub{
+    font-size:18px;
+    font-family: 'Archivo', sans-serif;
+    color:var(--primay-color)
+}
+
+.cta-title{
+    font-family: 'Roboto Slab', serif;
+
+
+}
+.cta-btn{
+    margin-top: 20px;
+    color: #fff;
+    background-color: var(--blue-color);
+    padding:10px 20px;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    font-family: 'Archivo', sans-serif;
+
+}
+.cta-second{
+    position: relative;
+}
+.cta-image{
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+.circle{
+    position:absolute;
+    top: -224px;
+    right: -598px;
+    z-index: -1;
+}
+
+footer{
+    padding:60px 0px 0px;
+}
+.footer-nav {
+    margin-top: 20px;
+list-style: none;
+display: flex;
+justify-content: space-between;
+font-family: 'Archivo', sans-serif;
+}
+
+.email{
+    font-family: 'Archivo', sans-serif;}
+.address p{
+    font-family: 'Archivo', sans-serif;
+
+}
+.newsletter input{
+    padding:  10px 20px;
+    font-family: 'Archivo', sans-serif;
+
+}
+
+.newsletter button{
+    padding:  12px 20px;
+    background-color: var(--blue-color);
+    border: none;
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+    margin-left: -5px;
+
+}
+.footer-bottom{
+    background-color:#899AA7;
+    padding: 20px 0px 8px; 
+}
+.copyright{
+    font-family: 'Archivo', sans-serif;
+}
+.copyright a{
+    color: #000;
+    text-decoration: none;
+}
+.designed{
+    display: flex;
+    justify-content: flex-end;
 }
