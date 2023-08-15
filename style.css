@@ -347,7 +347,7 @@ font-family: 'Archivo', sans-serif;
 @media only screen and (max-width: 480px){
     .item{
         position: relative;
-        height: 60vh;
+        height: 50vh;
     }
     .cta-image {
         width: 30%;
