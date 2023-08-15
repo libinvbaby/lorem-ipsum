@@ -146,8 +146,8 @@ section{
     border-bottom:4px solid var(--primay-color);
 }
 .btn-about {
-    position: relative;
-    left: 20px;
+    position: absolute;
+    left: 40px;
 }
 .btn-about a {
     text-decoration:none;
