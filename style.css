@@ -5,7 +5,6 @@
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 *{
     box-sizing:border-box;
@@ -290,6 +289,10 @@ font-family: 'Archivo', sans-serif;
 
 
 @media only screen and (max-width: 768px){
+    .item{
+        position: relative;
+        height: 70vh;
+    }
     .slide-title {
         font-family: 'Roboto Slab', serif;
         position: absolute;
@@ -329,7 +332,7 @@ font-family: 'Archivo', sans-serif;
     }
     .circle {
         position: absolute;
-        right: -10px;
+        right: 70px;
         z-index: -1;
     }
     .footer-nav {
