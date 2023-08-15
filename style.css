@@ -5,7 +5,7 @@
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    
 }
 *{
     box-sizing:border-box;
@@ -13,6 +13,10 @@ html{
     padding :  0px;
     /* font-family: 'Archivo', sans-serif; */
     /* font-family: 'Roboto Slab', serif; */
+}
+body{
+    margin: 0;
+  padding: 0;
 }
 .navbar{
     /* position: fixed;
@@ -38,7 +42,7 @@ html{
     background-color: var(--blue-color);
 }
 .navbar.scroll {
-    background-color: #0000006c;
+    background-color: grey;
   }
 .item{
     position: relative;
@@ -201,12 +205,16 @@ section{
 
 
 }
+.features-section{
+    overflow-x: hidden;
+}
 
 .cta{
     background-image: url(./images/bgblue.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0px 60px;
+    overflow: hidden;
 }
 
 .cta-sub{
@@ -294,6 +302,9 @@ font-family: 'Archivo', sans-serif;
 .copyright a{
     color: #000;
     text-decoration: none;
+}
+.footer{
+    overflow-x: hidden;
 }
 @keyframes moveLeftToRight {
     0% {
