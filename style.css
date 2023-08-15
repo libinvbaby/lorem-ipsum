@@ -317,9 +317,9 @@ font-family: 'Archivo', sans-serif;
         width:30%;
        margin-top: 20px;
        position:absolute;
-       left: -33px;
-       top: -146px;
-   }
+          left: -33px;
+    top: -146px;
+
     }
     .cta{
         text-align: center;
