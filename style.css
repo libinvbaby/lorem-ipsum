@@ -206,7 +206,7 @@ section{
 
 }
 .features-section{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .cta{
@@ -252,7 +252,7 @@ section{
     position:absolute;
     top: -224px;
     right: -598px;
-    z-index: -1;
+    z-index: -5;
 }
 .circle img{
     width: 50%;
